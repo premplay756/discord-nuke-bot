@@ -134,7 +134,7 @@ async def clear(ctx):
     await channel.send("NUKED")
     print("Cleared out")
 
-@client.command(pass_context=True)
+@client.command(pass_context=false)
 async def massban(ctx):
     """bans every user"""
     c = 0
